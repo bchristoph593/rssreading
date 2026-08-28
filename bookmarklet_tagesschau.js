@@ -1,4 +1,5 @@
 
+function invokeReader() {
 	node = $(".article-head__shorttext"); 
 	
 	const selection = window.getSelection();
@@ -8,3 +9,4 @@
 	selection.addRange(range);
 
 	$(".article-head__shorttext").style = "border-left:1px solid black; border-right:1px solid black; padding:5px;";
+}
