@@ -1,5 +1,5 @@
 function invokeReader() {
-	const node = $(".article-head__shorttext"); 
+	const node = document.getElementsByClassName("article-head__shorttext")[0]; 
 	
 	const selection = window.getSelection();
 	const range = document.createRange();
