@@ -7,5 +7,5 @@ function invokeReader() {
 	selection.removeAllRanges();
 	selection.addRange(range);
 
-	$(".article-head__shorttext").style = "border-left:1px solid black; border-right:1px solid black; padding:5px;";
+	document.getElementsByClassName("article-head__shorttext")[0].style = "border-left:1px solid black; border-right:1px solid black; padding:5px;";
 }
