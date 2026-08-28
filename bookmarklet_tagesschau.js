@@ -1,4 +1,3 @@
-
 function invokeReader() {
 	node = $(".article-head__shorttext"); 
 	
